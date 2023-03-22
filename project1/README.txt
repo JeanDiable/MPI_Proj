@@ -1,0 +1,1 @@
+使用make指令编译hello.c以及pi.c，之后使用mpiexec 指令运行生成的hello.o和pi.o即可。
