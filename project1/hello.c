@@ -2,8 +2,8 @@
  * @Author: Suizhi HUANG && sunrisen.huang@gmail.com
  * @Date: 2023-03-21 19:58:12
  * @LastEditors: Suizhi HUANG && sunrisen.huang@gmail.com
- * @LastEditTime: 2023-03-21 20:06:38
- * @FilePath: /project1/hello.c
+ * @LastEditTime: 2023-03-22 16:25:38
+ * @FilePath: /MPI_Proj/project1/hello.c
  * @Description: In this file we use mpi as a tool to print "Hello World" in parallel.
  * Copyright (c) 2023 by $Suizhi HUANG, All Rights Reserved. 
  */

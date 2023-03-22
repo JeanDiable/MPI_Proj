@@ -2,8 +2,8 @@
  * @Author: Suizhi HUANG && sunrisen.huang@gmail.com
  * @Date: 2023-03-21 19:58:17
  * @LastEditors: Suizhi HUANG && sunrisen.huang@gmail.com
- * @LastEditTime: 2023-03-21 20:07:22
- * @FilePath: /project1/pi.c
+ * @LastEditTime: 2023-03-22 15:26:46
+ * @FilePath: /MPI_Proj/project1/pi.c
  * @Description: Using Monte Carlo method to calculate pi.
  * Copyright (c) 2023 by $Suizhi HUANG, All Rights Reserved. 
  */

@@ -7,15 +7,15 @@
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/**",
                 "/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/**",
                 "/Library/Developer/CommandLineTools/usr/include/**",
-                "/opt/homebrew/Cellar/mpich/4.1.1/include/**"
+                "/opt/homebrew/Cellar/mpich/4.1.1/include/**",
             ],
             "defines": [],
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
             ],
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c14",
+            "cppStandard": "c++14",
             "intelliSenseMode": "macos-clang-arm64",
             "configurationProvider": "ms-vscode.makefile-tools"
         }

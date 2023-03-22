@@ -11,16 +11,15 @@
 - 首先我基于单host进行了处理器数量对效率的影响，实验结果如下：
 
   - 首先测试了5个processors的情况，重复五次后取五次的平均运行时间，时间为：0.01658s
-
-  <img src="/Users/suizhi/Library/Application Support/typora-user-images/image-20230321163826899.png" alt="image-20230321163826899" style="zoom:33%;" />
-
-  同样的方式，测试了10个，20个，50个processors的运行时间，结果如下：
-
-  10个：0.03349s
-
-  20个：0.06407s
-
-  50个：0.18498s
+- <img src="https://raw.githubusercontent.com/JeanDiable/MyGallery/main/img/image-20230321163826899.png" style="zoom:33%;" />
+  
+同样的方式，测试了10个，20个，50个processors的运行时间，结果如下：
+  
+10个：0.03349s
+  
+20个：0.06407s
+  
+50个：0.18498s
 
 ### 单host实验结果分析
 
@@ -32,9 +31,9 @@
 
   - 5个processors的情况：重复10次后取10次的平均运行时间，时间为：0.01013s
 
-    <img src="/Users/suizhi/Library/Application Support/typora-user-images/image-20230321170301797.png" alt="image-20230321170301797" style="zoom:33%;" />
+    <img src="https://raw.githubusercontent.com/JeanDiable/MyGallery/main/img/image-20230321170301797.png" style="zoom:33%;" />
 
-<img src="/Users/suizhi/Library/Application Support/typora-user-images/image-20230321170318922.png" alt="image-20230321170318922" style="zoom:33%;" />
+<img src="https://raw.githubusercontent.com/JeanDiable/MyGallery/main/img/image-20230321170318922.png" style="zoom:33%;" />
 
 ​	并且我们可以发现，当使用2个host的时候，程序执行时间的波动明显增加，最快的仅需0.000467s，而最慢的需要0.01997s，二者相差42倍，但是整体来说对比单Host，执行效率提高了一些。
 
@@ -57,7 +56,7 @@
 
   - 首先测试了5个processors的情况，重复五次后取五次的平均运行时间，时间为：4.39843s
 
-    <img src="/Users/suizhi/Library/Application Support/typora-user-images/image-20230321190945235.png" alt="image-20230321190945235" style="zoom:50%;" />
+    <img src="https://raw.githubusercontent.com/JeanDiable/MyGallery/main/img/image-20230321190945235.png" style="zoom:50%;" />
 
     - 同样的方式，测试了10个，20个，50个processors的运行时间，结果如下：
 
@@ -79,7 +78,7 @@
 
   - 5个processors的情况：重复10次后取10次的平均运行时间，时间为：3.33649s
 
-    <img src="/Users/suizhi/Library/Application Support/typora-user-images/image-20230321194712344.png" alt="image-20230321194712344" style="zoom:33%;" />
+    <img src="https://raw.githubusercontent.com/JeanDiable/MyGallery/main/img/image-20230321194712344.png" style="zoom:33%;" />
 
 - 我们可以发现使用多host的时候执行时间相对比较稳定，并且用时也比单Host要短。
   - 同样我们针对10个processors、20个processors、50个processors的情况都进行了类似的统计，最终的结果如下：
